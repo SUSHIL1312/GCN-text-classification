@@ -1,0 +1,21 @@
+text_gcn
+Require:
+	Python= 3.6
+	TensorFlow =1.4.1
+	
+	Running for Results:
+		1.Run python remove_words.py mr
+		2.Run python build_graph.py mr
+		3.Run python train.py mr
+		4.Change mr in above 3 commands with other datasets like R8,R52.
+		
+We were able to achieve the desired testing accuracy as the paper was stating during our training process on following dataset.
+i.e. for mr dataset : 0.76084
+	for r52 dataset: 0.93731
+	for 20ng dataset: 0.86352
+	for r8 dataset:0.97031
+	
+Now, Improvisation is done for mr dataset only.
+		python train_mr.py
+After improvisation we were able to achieve testing accuracy of 0.78500.
+
